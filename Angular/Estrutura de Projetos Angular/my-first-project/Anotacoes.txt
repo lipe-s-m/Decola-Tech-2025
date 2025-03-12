@@ -1,0 +1,42 @@
+ng help: {
+  mostra todos os comandos disponiveis
+}
+
+ng new[${name}]:{
+  cria um novo projeto angular
+}
+
+ng serve{
+  constroi (compila) o projeto, compilando ele e fazendo 
+}
+cd
+src{
+  a pasta src é a raiz dos meus codigos (html, css, js, java etc), onde nela fica o "coração" do meu projeto, e fora dela fica os arquivos de configuracao
+}
+tsconfig:{
+  configura o typescript geral
+
+  tsconfig.spec{
+    configura o typescript no ambiente de testes
+  }
+   tsconfig.app{
+    configura o typescript no ambiente de producao
+  }
+  tsconfig.[${qualquer coisa}]{
+    configura o typescript no ambiente de ${qualquer coisa}
+  }
+}
+
+package.json{
+  configura o projeto, node, suas dependencias etc
+}
+angular.json{
+  configura o angular e seus comportamentos
+}
+editorconfig{
+  configura o Editor de codigo (IDE)
+}
+.vscode{
+  configura o vscode
+}
+
