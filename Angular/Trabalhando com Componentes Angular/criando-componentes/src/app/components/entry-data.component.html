@@ -1,0 +1,6 @@
+<input type="text" [value]="textoInput" (input)="textoInput = $any($event.target).value" />
+<p>Usuario: {{textoInput}}</p>
+
+<!-- //ngmodel -->
+<input type="text" [(ngModel)]="passkey" />
+<p [style.color]="color">Senha: {{passkey}}</p>

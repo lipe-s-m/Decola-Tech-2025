@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+h1 {
+
+	/* nao sera aplicado pois ja possui uma estilizacao de cor no seu escopo local*/
+	color: grey;
+
+	/* sera aplicado */
+	text-decoration: underline;
+}
+
+button {
+	border-radius: 1rem;
+	padding: 1rem;
+	margin: 0.4rem;
+}
