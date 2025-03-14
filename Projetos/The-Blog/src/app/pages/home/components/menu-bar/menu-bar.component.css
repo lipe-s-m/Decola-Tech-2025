@@ -1,6 +1,5 @@
 .container {
-	padding: 0.8rem 8rem;
-	border: 2px beige solid;
+	padding: 0.2rem 8rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
