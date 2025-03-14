@@ -1,0 +1,41 @@
+<div *ngIf="isAliveCard; else elseBlock">
+  <h1>sou um card</h1>
+  <p>card works!</p>
+  <button (click)="destruirCard()">Destruir</button>
+</div>
+<ng-template #elseBlock> Fui Destruido </ng-template>
+
+<hr />
+
+<div [ngSwitch]="userType">
+  <div *ngSwitchCase="'user'">
+    <ul>
+      <li>Editar Perfil</li>
+      <li>Alterar método de pagamento</li>
+    </ul>
+  </div>
+  <div *ngSwitchCase="'admin'">
+    <ul>
+      <li>Editar Perfil</li>
+      <li>Alterar método de pagamento</li>
+      <li>Gerenciar Usuarios</li>
+    </ul>
+  </div>
+
+  <div *ngSwitchCase="'superUser'">
+    <ul>
+      <li>Editar Perfil</li>
+      <li>Alterar método de pagamento</li>
+      <li>Gerenciar Usuarios</li>
+      <li>Gerenciar Admins</li>
+    </ul>
+  </div>
+</div>
+<p>Adicionar Produto ao Carrinho</p>
+<input type="text" [(ngModel)]="produto" />
+<button (click)="adicionarProduto()">Adicionar</button>
+<ul>
+  <li *ngFor="let produto of produtos; let i = index">
+    {{ produto }} - <button (click)="removerProduto(i)">remover</button>
+  </li>
+</ul>

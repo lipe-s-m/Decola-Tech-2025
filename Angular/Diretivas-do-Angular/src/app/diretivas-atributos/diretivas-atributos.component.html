@@ -1,0 +1,10 @@
+<ng-content select="h2"></ng-content>
+<p [ngClass]="estilo">MUDE MINHA COR!</p>
+<button (click)="mudarCor()">alterar cor</button>
+<ng-template [ngIf]="isVermelho">
+  <p>to na cor vermelho kksk</p>
+</ng-template>
+<ng-content select="p"></ng-content>
+
+<hr />
+<ng-content select="app-card"></ng-content>
