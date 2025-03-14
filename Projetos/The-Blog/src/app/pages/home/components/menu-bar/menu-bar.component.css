@@ -1,0 +1,27 @@
+.container {
+	padding: 0.8rem 8rem;
+	border: 2px beige solid;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container > ul {
+	display: flex;
+	gap: 3.2rem;
+}
+.container > ul > li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: 2.4rem;
+}
+a:hover {
+	opacity: 0.8;
+}
+
+.container > img {
+	width: 10rem;
+	border-radius: 100%;
+}
