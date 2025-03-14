@@ -1,4 +1,4 @@
-<article class="container" (click)="navigateToLink()">
+<article class="container" [routerLink]="['/content', id]">
 	<img src="{{ cardImage }}" alt="Photo-Lilo-Stitch" />
 	<div class="content">
 		<p>{{ cardData }}</p>

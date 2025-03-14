@@ -14,14 +14,15 @@
 
 a {
 	text-decoration: none;
-	font-size: 2.4rem;
+	font-size: 2rem;
 	padding: 1.2rem;
 }
 a:hover {
+	transition: 200ms;
 	opacity: 0.8;
 }
 
 .container > img {
-	width: 10rem;
+	width: 8rem;
 	border-radius: 100%;
 }

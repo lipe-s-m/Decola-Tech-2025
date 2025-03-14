@@ -29,6 +29,7 @@ a {
 }
 
 .container:hover {
+	transition: 200ms;
 	cursor: pointer;
 	opacity: 0.9;
 }
