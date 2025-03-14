@@ -1,0 +1,6 @@
+.news {
+	display: flex;
+	padding: 5.2rem 2rem;
+	/* background-color: brown; */
+	justify-content: center;
+}

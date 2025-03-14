@@ -1,0 +1,14 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	gap: 2.4rem;
+	border: 2px solid beige;
+	width: 60rem;
+	padding: 0 4rem;
+}
+img {
+	width: 30rem;
+}
+h2 {
+	font-size: 2rem;
+}
