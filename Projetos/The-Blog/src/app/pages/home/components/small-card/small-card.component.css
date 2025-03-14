@@ -1,16 +1,37 @@
 .container {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-start;
 	gap: 2.4rem;
 	/* border: 2px solid beige; */
 	/* width: 60rem; */
 	width: 100%;
-	padding: 0 4rem;
+	padding: 0 1rem;
 }
 img {
 	width: 40%;
 }
 h2 {
 	font-size: 2rem;
+}
+p {
+	max-width: 80rem;
+	font-size: 1.5rem;
+	text-wrap: wrap;
+	opacity: 0.8;
+}
+.container > p {
+	margin: -1rem 0 -2rem;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+	padding: 0.8rem 0;
+}
+
+.container:hover {
+	cursor: pointer;
+	opacity: 0.9;
 }
