@@ -20,7 +20,7 @@ export class CardComponent {
   constructor() {
     this.produtos = ['Mouse', 'Teclado', 'Monitor', 'Gabinete', 'Fonte'];
     this.isAliveCard = true;
-    this.userType = 'superUser';
+    this.userType = 'user';
   }
 
   adicionarProduto(): void {

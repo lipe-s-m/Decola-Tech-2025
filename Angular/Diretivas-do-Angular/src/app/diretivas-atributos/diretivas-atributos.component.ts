@@ -1,11 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-diretivas-atributos',
   standalone: true,
-  imports: [CommonModule, CardComponent],
+  imports: [CommonModule],
   templateUrl: './diretivas-atributos.component.html',
   styleUrl: './diretivas-atributos.component.css',
 })
