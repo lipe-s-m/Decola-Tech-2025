@@ -1,13 +1,15 @@
 .container {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	gap: 2.4rem;
-	border: 2px solid beige;
-	width: 60rem;
+	/* border: 2px solid beige; */
+	/* width: 60rem; */
+	width: 100%;
 	padding: 0 4rem;
 }
 img {
-	width: 30rem;
+	width: 40%;
 }
 h2 {
 	font-size: 2rem;
