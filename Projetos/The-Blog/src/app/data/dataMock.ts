@@ -4,6 +4,10 @@ export const dataMock = [
 		image:
 			'https://static1.srcdn.com/wordpress/wp-content/uploads/2025/03/spider-man-and-sadie-sink-in-stranger-things.jpg',
 		title: 'Sadie Sink vai participar do novo Homem Aranha 4?',
+		resumo: `A atriz Sadie Sink, conhecida por seu papel como Max Mayfield na série
+		"Stranger Things" e por participações em filmes como "Rua do Medo", está
+		prestes a embarcar em um novo desafio no Universo Cinematográfico da Marvel
+		(MCU). De acordo...    [ Ler mais... ]`,
 		description: `A atriz Sadie Sink, amplamente reconhecida por seu papel como Max Mayfield na série de sucesso da Netflix "Stranger Things", está prestes a dar um grande salto em sua carreira ao ingressar no Universo Cinematográfico da Marvel (MCU). Além de conquistar o público com sua atuação intensa na trama sobrenatural ambientada em Hawkins, Sink também brilhou em produções como a trilogia de terror "Rua do Medo", consolidando-se como uma das jovens atrizes mais promissoras de sua geração. 
   
   Agora, de acordo com informações divulgadas pelo site norte-americano Deadline, Sadie foi escalada para um papel de destaque no tão aguardado filme "Homem-Aranha 4", que continuará acompanhando a jornada do herói interpretado por Tom Holland. Embora a Marvel Studios ainda não tenha revelado oficialmente qual será a personagem de Sink, as especulações já tomaram conta das redes sociais e apontam para duas possibilidades que empolgam os fãs: ela poderia interpretar uma nova versão de Mary Jane Watson, o icônico interesse amoroso de Peter Parker, ou até mesmo dar vida à mutante Jean Grey, sinalizando uma possível conexão com a futura introdução dos X-Men no MCU. 
@@ -32,7 +36,7 @@ Agora, resta a contagem regressiva para ver essa história reimaginada na telona
 	{
 		id: '3',
 		image:
-			'https://br.web.img3.acsta.net/c_400_225/img/fb/3f/fb3f42bfab4f1f569dc64acb69f7dfba.jpg',
+			'https://cafecomnerd.com.br/wp-content/uploads/2024/08/The-Acolyte-Cancelada-serie-Star-Wars-no-Disney-Plus-depois-de-uma-temporada.jpg',
 		title: 'Série de Star Wars Cancelada!',
 		description: `O universo de Star Wars sofreu um duro golpe com o anúncio inesperado do cancelamento de uma das séries planejadas para o Disney+. A notícia pegou os fãs de surpresa, especialmente aqueles que aguardavam ansiosamente por mais histórias ambientadas na galáxia muito, muito distante.
 
@@ -49,8 +53,7 @@ Que a Força esteja com a esperança dos fãs! ✨`,
 		id: '4',
 		image:
 			'https://cinepop.com.br/wp-content/uploads/2023/05/avatar2-696x395.jpg',
-		title:
-			'‘Avatar: Fogo e Cinzas’ será o filme mais LONGO da franquia, afirma James Cameron.',
+		title: '‘Avatar: Fogo e Cinzas’ será o filme mais longo da franquia.',
 		description: `O visionário diretor James Cameron surpreendeu os fãs ao anunciar que "Avatar: Fogo e Cinzas" será o filme mais extenso de toda a saga. Após o sucesso de Avatar: O Caminho da Água, Cameron promete uma produção épica, com ainda mais tempo para explorar os mistérios de Pandora e aprofundar as tramas emocionantes que conquistaram o público.
 
         Segundo o cineasta, a decisão de prolongar a duração do longa foi motivada pela necessidade de contar a história com a riqueza de detalhes que a narrativa exige, sem sacrificar cenas importantes ou apressar o desenvolvimento dos personagens. Os espectadores podem esperar sequências visuais deslumbrantes, novos clãs Na'vi e reviravoltas que prometem intensificar ainda mais o conflito central da franquia.

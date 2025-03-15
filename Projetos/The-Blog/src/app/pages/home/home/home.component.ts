@@ -7,13 +7,8 @@ import { SmallCardComponent } from '../components/small-card/small-card.componen
 @Component({
 	selector: 'app-home',
 	standalone: true,
-	imports: [
-		MenuBarComponent,
-		MenuTitleComponent,
-		BigCardComponent,
-		SmallCardComponent,
-	],
+	imports: [MenuTitleComponent, BigCardComponent, SmallCardComponent],
 	templateUrl: './home.component.html',
-	styleUrls: ['./home.component.css'],
+	styleUrls: ['./home.component.css', './home.responsive.component.css'],
 })
 export class HomeComponent {}
