@@ -5,15 +5,16 @@
   background-color: white;
 }
 
-ul {
+.cards > ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 23rem;
   gap: 3rem;
   padding: 2rem;
   /* background-color: blueviolet; */
 }
 
-li {
+.cards > ul > li {
   padding: 1rem;
   list-style: none;
   /* background-color: aqua; */
@@ -45,15 +46,17 @@ article > .atributos {
   gap: 0 0.4rem;
 }
 
-article .atributos > span {
+.atributos > li {
+  list-style: none;
+}
+span {
   display: inline-block;
   padding: 0.2rem 0.6rem;
   background-color: rgb(110, 238, 121);
 }
 
 .background {
-  content: "";
-  height: 100dvh;
+  min-height: 100dvh;
   width: 100%;
   background: rgb(164, 159, 130);
   background: linear-gradient(
