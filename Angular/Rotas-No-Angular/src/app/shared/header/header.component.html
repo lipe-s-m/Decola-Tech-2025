@@ -1,0 +1,27 @@
+<header>
+	<nav>
+		<ul>
+			<li>
+				<a
+					[routerLink]="['/']"
+					[routerLinkActive]="['actived']"
+					[routerLinkActiveOptions]="{ exact: true }"
+					>Home</a
+				>
+			</li>
+			<li>
+				<a [routerLink]="['portfolio']" [routerLinkActive]="['actived']"
+					>Portfolio</a
+				>
+			</li>
+			<li>
+				<a
+					[routerLink]="['contatos']"
+					[routerLinkActive]="['actived']"
+					[routerLinkActiveOptions]="{ exact: true }"
+					>Contatos</a
+				>
+			</li>
+		</ul>
+	</nav>
+</header>
