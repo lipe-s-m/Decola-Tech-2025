@@ -27,11 +27,27 @@
   background-color: rgb(77, 173, 91);
   color: white;
 }
-.bottom-content {
+.naveg {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(97, 97, 97);
+}
+.naveg > nav > ul {
+  display: flex;
+  gap: 6rem;
+}
+.naveg > nav > ul > li {
+  padding: 0.4rem 0.8rem;
+  font-size: 2rem;
+  list-style: none;
+}
+
+.end-search {
   display: flex;
   width: 100%;
 }
-.bottom-content::after {
+.end-search::after {
   display: block;
   position: absolute;
   content: "";

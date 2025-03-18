@@ -1,13 +1,27 @@
 <section class="search">
   <div class="content">
     <div class="left">
-      <h2>Nome ou número do Pokemon</h2>
-      <input type="text" name="" id="" placeholder="Insira aqui" />
-      <button type="submit">🔍</button>
+      <h2>Insira o nome do Pokemon</h2>
+      <input
+        type="text"
+        [(ngModel)]="inputSearch"
+        placeholder="Insira aqui"
+        id="inputSearch"
+      />
+      <button type="submit" (click)="obterPokemon()">🔍</button>
     </div>
     <div class="right">
-      <p>Obtenha dados do seu Pokemon preferido buscando ele aqui!</p>
+      <p>Adicione o seu Pokemon preferido na sua Pokedex!</p>
     </div>
   </div>
-  <div class="bottom-content"></div>
+  <div class="naveg">
+    <nav>
+      <ul>
+        <li (click)="getPokemonFromRegion('kanto')">Kanto</li>
+        <li (click)="getPokemonFromRegion('alola')">Alola</li>
+        <li (click)="getPokemonFromRegion('unova')">Unova</li>
+      </ul>
+    </nav>
+  </div>
+  <div class="end-search"></div>
 </section>

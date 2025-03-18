@@ -1,14 +1,26 @@
 <section class="cards">
   <div class="background"></div>
   <ul>
-    <li *ngFor="let pokemon of listPokemons">
+    <!-- <li>
       <article>
-        <img src="{{ pokemon.imagePokemon }}" alt="" />
-        <p>{{ pokemon.idPokemon }}</p>
-        <h3>{{ pokemon.namePokemon }}</h3>
+        <img src="{{ pokemon.sprites.front_default }}" alt="" />
+        <p>{{ pokemon.id }}</p>
+        <h3>{{ pokemon.name }}</h3>
         <ul class="atributos">
-          <li *ngFor="let atributo of pokemon.atributosPokemon">
-            <span> {{ atributo }}</span>
+          <li *ngFor="let atributo of pokemon.types">
+            <span> {{ atributo.type.name }}</span>
+          </li>
+        </ul>
+      </article>
+    </li> -->
+    <li *ngFor="let pokemon of listaPokemons">
+      <article>
+        <img src="{{ pokemon.sprites.front_default }}" alt="" />
+        <p>{{ pokemon.id }}</p>
+        <h3>{{ pokemon.name }}</h3>
+        <ul class="atributos">
+          <li *ngFor="let atributo of pokemon.types">
+            <span> {{ atributo.type.name }}</span>
           </li>
         </ul>
       </article>
