@@ -13,3 +13,23 @@ hr {
     width: 100%;
     border: 0.2rem solid rgba(255, 235, 205, 0.2);
 }
+
+@media (max-width: 768px) {
+    header > img {
+        width: 22rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header > img {
+        width: 18rem;
+    }
+    hr {
+        margin: 0.8rem 0;
+    }
+}
+@media (max-width: 425px) {
+    header > img {
+        width: 14rem;
+    }
+}

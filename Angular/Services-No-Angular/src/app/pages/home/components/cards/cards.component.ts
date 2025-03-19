@@ -10,7 +10,7 @@ import { SearchService } from '../../../../services/search.service';
     standalone: true,
     imports: [CommonModule],
     templateUrl: './cards.component.html',
-    styleUrl: './cards.component.css',
+    styleUrls: ['./cards.component.css', './cards.component.responsive.css'],
 })
 export class CardsComponent implements OnInit {
     // public namePokemon: string = '';
